@@ -1,0 +1,57 @@
+# Godot-generated caches, imports, and local export credentials.
+.godot/
+*.translation
+
+# Standalone builds and test captures. Keep exports in one of these folders.
+/build/
+/builds/
+/dist/
+/export/
+/exports/
+/test-artifacts/
+*.pck
+*.exe
+*.app/
+*.dmg
+*.apk
+*.aab
+*.ipa
+*.wasm
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.dylib
+*.so
+
+# Python audio-generator caches and local environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor, temporary, and operating-system files.
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.tmp
+*.log
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Local secrets and signing material.
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.pfx
+
+# Keep source assets, *.uid, and *.import sidecars under version control.
+# export_presets.cfg may be committed; never put credentials in it.

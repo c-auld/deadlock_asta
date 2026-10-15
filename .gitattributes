@@ -1,0 +1,12 @@
+# Consistent source files across macOS, Windows, and Linux.
+* text=auto eol=lf
+
+# Preserve binary assets and documentation screenshots byte for byte.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.wav binary
+*.ogg binary
+*.mp3 binary
+*.glb binary
