@@ -178,7 +178,7 @@ func _build_title() -> void:
 	_rect(title_screen, Vector2(65, 66), Vector2(8, 8), AMBER)
 	_text(title_screen, "FIRST-PERSON SURVIVAL HORROR", Vector2(88, 59), 14, AMBER)
 	_rule(title_screen, Vector2(65, 96), 438)
-	var wordmark := _text(title_screen, "DEAD\nLOCK", Vector2(58, 127), 112)
+	var wordmark := _text(title_screen, "DEADLOCK\n_ASTA", Vector2(58, 127), 80)
 	wordmark.add_theme_font_override("font", heavy)
 	wordmark.add_theme_constant_override("line_spacing", -22)
 	_text(title_screen, "SECTOR 09  /  CONTAINMENT FAILURE", Vector2(66, 387), 13, AMBER)
@@ -325,7 +325,7 @@ func _build_end() -> void:
 	end_copy = _text(panel, "", Vector2(0, 168), 18, MUTED)
 	end_button = _button(panel, "TRY AGAIN  [R]", Vector2(0, 284), Vector2(325, 56), func() -> void: start_requested.emit(), true)
 	_button(panel, "TITLE SCREEN", Vector2(345, 284), Vector2(325, 56), func() -> void: title_requested.emit())
-	_text(panel, "DEADLOCK  /  END OF TRANSMISSION", Vector2(0, 386), 12, MUTED)
+	_text(panel, "DEADLOCK_ASTA  /  END OF TRANSMISSION", Vector2(0, 386), 12, MUTED)
 
 
 func show_title() -> void:

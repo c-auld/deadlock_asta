@@ -1,4 +1,6 @@
-# DEADLOCK
+# deadlock_asta
+
+The Astra version of a game-building experiment comparing Astra and Opus using the same prompts. Repository: [c-auld/deadlock_asta](https://github.com/c-auld/deadlock_asta).
 
 A small PS1-inspired **first-person survival-horror prototype** in Godot. Explore the service corridor and two side rooms, conserve handgun ammunition, manage wounds, find the brass key, and unlock the exit. The original movement, low-resolution renderer, corridor, and atmospheric audio are reused.
 
